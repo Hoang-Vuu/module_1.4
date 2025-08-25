@@ -22,7 +22,7 @@ public class task3 {
             int duplicate = 0;
             for (int j = 0; j < count; j++) {
                 if (numbers[a] == unique[j]) {
-                    duplicateCount++;
+                    duplicate++;
                 }
             }
             if (duplicateCount == 0) {
