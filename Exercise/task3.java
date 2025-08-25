@@ -25,7 +25,7 @@ public class task3 {
                     duplicate++;
                 }
             }
-            if (duplicateCount == 0) {
+            if (duplicate == 0) {
                 unique[count] = numbers[a];
                 count++;
             }
