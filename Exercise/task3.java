@@ -31,7 +31,7 @@ public class task3 {
             }
         }
 
-        System.out.print("Array after removing duplicates: ");
+        System.out.print("The array without duplicates: ");
         for (int b = 0; b < count; b++) {
             System.out.print(unique[b] + " ");
         }
