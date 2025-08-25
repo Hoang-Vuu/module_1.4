@@ -35,6 +35,5 @@ public class task3 {
         for (int b = 0; b < count; b++) {
             System.out.print(unique[b] + " ");
         }
-        System.out.println();
     }
 }
