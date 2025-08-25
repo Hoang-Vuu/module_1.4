@@ -19,7 +19,7 @@ public class task3 {
         int count = 0;
 
         for (int a = 0; a < n; a++) {
-            int duplicateCount = 0;
+            int duplicate = 0;
             for (int j = 0; j < count; j++) {
                 if (numbers[a] == unique[j]) {
                     duplicateCount++;
